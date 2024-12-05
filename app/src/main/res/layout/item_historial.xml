@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/fecha_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de inicio"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fecha_fin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de fin"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/duracionCiclo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duración ciclo: 0 días"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/duracionPeriodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duración periodo: 0 días"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/ciclo_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Información del ciclo"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray" />
+</LinearLayout>

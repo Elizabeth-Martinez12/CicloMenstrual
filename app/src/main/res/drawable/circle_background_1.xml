@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#E0F7FA" /> <!-- Color del círculo -->
+    <corners android:radius="1000dp" /> <!-- Bordes redondeados -->
+    <stroke android:width="0dp" android:color="#FF4081" /> <!-- Borde rosado -->
+</shape>

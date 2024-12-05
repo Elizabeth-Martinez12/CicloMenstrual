@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:elevation="4dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginTop="8dp"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/light_pink"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/imagen_alimento"/>
+
+        <!-- Contenedor para los textos -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Nombre del alimento -->
+            <TextView
+                android:id="@+id/nombreAlimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/material_dynamic_primary80"
+                android:textStyle="bold"
+                android:text="Nombre de la Actividad"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                android:layout_marginBottom="4dp"/>
+
+            <!-- Descripción del alimento -->
+            <TextView
+                android:id="@+id/beneficios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="Descripción breve de la actividad que aparecerá aquí."
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_marginBottom="6dp" />
+
+            <!-- Fase recomendada -->
+            <TextView
+                android:id="@+id/fase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/gray"
+                android:text="Fase recomendada: "
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

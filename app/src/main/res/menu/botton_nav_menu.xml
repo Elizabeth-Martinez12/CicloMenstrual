@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/house_solid"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@drawable/calendar_days_solid"
+        android:title="Calendario"/>
+    <item
+        android:id="@+id/navigation_consejos"
+        android:icon="@drawable/lightbulb_regular"
+        android:title="Consejos" />
+
+
+</menu>

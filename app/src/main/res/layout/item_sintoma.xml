@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:elevation="4dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginTop="8dp"
+    android:clipToPadding="false">
+
+    <!-- Título del síntoma con estilo atractivo -->
+    <TextView
+        android:id="@+id/nombreSintoma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/primary_color"
+        android:textAllCaps="true"
+        android:layout_marginBottom="4dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Descripción del síntoma con color y espaciado -->
+    <TextView
+        android:id="@+id/descripcionSintoma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/darker_gray"
+        android:lineSpacingExtra="4dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:layout_marginBottom="12dp" />
+
+</LinearLayout>
